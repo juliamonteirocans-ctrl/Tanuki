@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blind Box</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="prod1.css">
+</head>
+
+<body>
+    <header class="header">
+        <section>
+            <a href="#" class="logo">
+                <img src="401 Sem Título_20261104163845.png" alt="logo" width="78px">
+            </a>
+
+            <nav class="blah">
+                <a href="index.html#home">Home</a>
+                <a href="index.html#about">Sobre</a>
+                <a href="index.html#produtos">Produtos</a>
+                <a href="index.html#review">Avaliações</a>
+            </nav>
+
+            <div class="icons">
+                <div class="container-busca" id="containerBusca">
+                    <form id="formBusca" class="barra-pesquisa">
+                        <input type="search" id="campoBusca" placeholder="O que você procura?" autocomplete="off">
+                        <button type="button" id="btnLupa" aria-label="Abrir busca">
+                            <img src="https://img.icons8.com/ios-filled/50/search--v2.png" alt="Buscar" width="30"
+                                height="30">
+                        </button>
+                    </form>
+                    <ul id="listaSugestoes" class="sugestoes"></ul>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <section class="produto">
+        <div class="box">
+            <div class="galeria-esquerda">
+                <img id="fotoAtual" src="blindbox.png" alt="blindbox" width="300">
+                <br>
+                <div class="botoes-galeria">
+                    <button onclick="mudarFoto(-1)">Anterior</button>
+                    <button onclick="mudarFoto(1)">Próxima</button>
+                </div>
+            </div>
+            <div class="produto-texto">
+                <h1>..Blind Box.. <br></h1>
+                <h2>A surpresa de gatinhos mais fofos!</h2>
+                <h3>Adquirindo um pacote você tem a chance de ganhar um de nosso gatinhos:</h3>
+                <p><strong>Miaurango.</strong><br>
+                    - o docinho gentil. <br>
+                    O Miaurango é aquele gatinho que parece ter sido feito de carinho! É delicado, gentil e está sempre
+                    pronto para oferecer um ronronar quentinho. Um verdadeiro docinho de morango!
+                    <br><br>
+                    <strong>Miaunilha.</strong><br>
+                    - o calmante em forma de gatinho. <br>
+                    O Miaunilha é um gatinho de poucas palavras e muitos ronronares. É observador, delicado e transmite
+                    uma paz tão gostosinha que dá vontade de ficar pertinho dele o dia inteiro!
+                    <br><br>
+                    <strong>Miacha.</strong><br>
+                    - o docinho bagunceiro. <br>
+                    O Miacha é pura diversão! Não consegue ficar parado por muito tempo e adora transformar qualquer
+                    momento em uma grande brincadeira. É um pouquinho levado, mas impossível não amar!
+                    <br><br>
+                    Adquira o seu agora e tente a sorte de conseguir um raro. Teste sua sorte..
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <script src="prod1.js"></script>
+</body>
+
+</html>
