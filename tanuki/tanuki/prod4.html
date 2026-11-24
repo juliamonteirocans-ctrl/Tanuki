@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuromi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="prod2.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <section>
+            <a href="#" class="logo">
+                <img src="401 Sem Título_20261104163845.png" alt="logo" width="78px">
+            </a>
+
+            <nav class="blah">
+                <a href="index.html#home">Home</a>
+                <a href="index.html#about">Sobre</a>
+                <a href="index.html#produtos">Produtos</a>
+                <a href="index.html#review">Avaliações</a>
+            </nav>
+
+            <div class="icons">
+                <div class="container-busca" id="containerBusca">
+                    <form id="formBusca" class="barra-pesquisa">
+                        <input type="search" id="campoBusca" placeholder="O que você procura?" autocomplete="off">
+                        <button type="button" id="btnLupa" aria-label="Abrir busca">
+                            <img src="https://img.icons8.com/ios-filled/50/search--v2.png" alt="Buscar" width="30"
+                                height="30">
+                        </button>
+                    </form>
+                    <ul id="listaSugestoes" class="sugestoes"></ul>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <section class="produto">
+        <div class="box">
+            <div class="galeria-esquerda">
+                <img id="fotoAtual" src="kuromi.jpeg" alt="kuromi" width="300">
+                <br>
+                <div class="botoes-galeria">
+                    <button onclick="mudarFoto(-1)">Anterior</button>
+                    <button onclick="mudarFoto(1)">Próxima</button>
+                </div>
+            </div>
+
+            <div class="produto-texto">
+                <h1>..Kuromi.. <br></h1>
+                <h2>Fofinha por fora, travessinha por natureza.</h2>
+                <p>Fofura, atitude e uma pitadinha de travessura! <br>
+                    Nossa Kuromi é confeccionada à mão, trazendo todos os
+                    detalhes que tornam essa personagem tão especial. <br>
+                    Com seu icônico capuz de caveirinha e seu jeitinho
+                    cheio de personalidade, ela é perfeita para decorar ambientes, presentear alguém especial ou
+                    acompanhar os fãs da Sanrio em suas aventuras. <br>
+                    Porque até as personalidades mais rebeldes merecem um
+                    pouquinho de carinho!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <script src="prod4.js"></script>
+
+</body>
+
+</html>
